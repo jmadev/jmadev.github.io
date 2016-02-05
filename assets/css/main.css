@@ -1593,13 +1593,27 @@
 			color: #333;
 		}
 
+	h1 {
+		font-size: 4em;
+		letter-spacing: -1px;
+	}	
+		h1.alt {
+			color: #888;
+			border-bottom: 1px solid #fff;
+		}
+
+			h1.alt strong {
+				color: #666;
+			}
+
 	h2 {
-		font-size: 2em;
+		font-size: 3em;
 		letter-spacing: -1px;
 	}
 
 		h2.alt {
 			color: #888;
+			border-bottom: 1px solid #fff;
 		}
 
 			h2.alt strong {
